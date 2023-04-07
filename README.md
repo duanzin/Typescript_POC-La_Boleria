@@ -106,7 +106,7 @@ Expected response
 	        "phone": "2199999999"
 	    },
 	    "cake": {
-			"id": 1
+			"id": 1,
 	        "name": "Bolo de pote",
 	        "price": "13.00",
 		    "description": "Bolo de chocolate com recheio de leite ninho",
@@ -143,7 +143,7 @@ Expected response
 	        "phone": "2199999999"
 	    },
 	    "cake": {
-			"id": 1
+			"id": 1,
 	        "name": "Bolo de pote",
 	        "price": "13.00",
 		    "description": "Bolo de chocolate com recheio de leite ninho",
@@ -179,7 +179,7 @@ Expected response
         "phone": "2199999999"
     },
     "cake": {
-		"id": 1
+		"id": 1,
         "name": "Bolo de pote",
         "price": "13.00",
 		"description": "Bolo de chocolate com recheio de leite ninho",
