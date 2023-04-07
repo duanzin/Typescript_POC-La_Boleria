@@ -144,34 +144,25 @@ ALTER TABLE ONLY public.orders ALTER COLUMN id SET DEFAULT nextval('public.order
 -- Data for Name: cakes; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-INSERT INTO public.cakes VALUES (1, 'Bolo de pote', 13, 'https://www.confeiteiradesucesso.com/wp-content/uploads/2016/07/bolonopote-venda.jpg', 'Bolo de chocolate com recheio de leite ninho');
-INSERT INTO public.cakes VALUES (2, 'Bolo de fubá', 18, 'https://img.itdg.com.br/tdg/images/recipes/000/021/560/364475/364475_original.jpg?mode=crop&width=710&height=400', 'Bolo de fubá');
-INSERT INTO public.cakes VALUES (3, 'Bolo de mulango', 10, 'https://gartic.com.br/imgs/mural/da/darin_/hmm-bolo-de-mulango.png', 'Mmmmm Bolo de mulango');
 
 
 --
 -- Data for Name: clients; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-INSERT INTO public.clients VALUES (1, 'Fulana', 'Rua tal', '2199999999');
-INSERT INTO public.clients VALUES (2, 'pica pau', 'rua da minnie ranheta', '55555555555');
-INSERT INTO public.clients VALUES (3, 'Cebolhinha', 'bairro do limoeiro', '32000000000');
 
 
 --
 -- Data for Name: orders; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-INSERT INTO public.orders VALUES (1, 1, 1, 2, '2023-03-24', 26);
-INSERT INTO public.orders VALUES (2, 2, 3, 1, '2023-03-24', 10);
-INSERT INTO public.orders VALUES (3, 3, 2, 4, '2023-03-24', 72);
 
 
 --
 -- Name: cakes_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.cakes_id_seq', 3, true);
+SELECT pg_catalog.setval('public.cakes_id_seq', 4, true);
 
 
 --
@@ -185,7 +176,7 @@ SELECT pg_catalog.setval('public.clients_id_seq', 3, true);
 -- Name: orders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.orders_id_seq', 6, true);
+SELECT pg_catalog.setval('public.orders_id_seq', 7, true);
 
 
 --
