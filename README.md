@@ -103,11 +103,11 @@ Expected response
 	        "phone": "2199999999"
 	    },
 	    "cake": {
-					"id": 1
+			"id": 1
 	        "name": "Bolo de pote",
 	        "price": "13.00",
-					"description": "Bolo de chocolate com recheio de leite ninho",
-					"image": "encurtador.com.br/iDIX0"
+		    "description": "Bolo de chocolate com recheio de leite ninho",
+			"image": "encurtador.com.br/iDIX0"
 	    },
 	    "createdAt": "2022-03-16",
 	    "quantity": 2,
@@ -140,11 +140,11 @@ Expected response
 	        "phone": "2199999999"
 	    },
 	    "cake": {
-					"id": 1
+			"id": 1
 	        "name": "Bolo de pote",
 	        "price": "13.00",
-					"description": "Bolo de chocolate com recheio de leite ninho",
-					"image": "encurtador.com.br/iDIX0"
+		    "description": "Bolo de chocolate com recheio de leite ninho",
+			"image": "encurtador.com.br/iDIX0"
 	    },
 	    "createdAt": "2022-03-16",
 	    "quantity": 2,
@@ -176,11 +176,11 @@ Expected response
         "phone": "2199999999"
     },
     "cake": {
-				"id": 1
+		"id": 1
         "name": "Bolo de pote",
         "price": "13.00",
-				"description": "Bolo de chocolate com recheio de leite ninho",
-				"image": "encurtador.com.br/iDIX0"
+		"description": "Bolo de chocolate com recheio de leite ninho",
+		"image": "encurtador.com.br/iDIX0"
     },
     "createdAt": "2022-03-16",
     "quantity": 2,
