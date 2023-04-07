@@ -25,7 +25,7 @@ npm run dev
 ```
 POST /cakes
 ```
-Expected input
+Input example
 
 ```
 {
@@ -47,7 +47,7 @@ return: 201 created
 ```
 POST /clients
 ```
-Expected input
+Input example
 
 ```
 {
@@ -68,7 +68,7 @@ return: 201 created
 ```
 POST /orders
 ```
-Expected input
+Input example
 
 ```
 {
