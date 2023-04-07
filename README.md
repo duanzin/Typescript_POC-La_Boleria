@@ -8,7 +8,7 @@ After downloading the project, install all dependencies show on the package.json
 
 On the .env file, set DATABASE_URL to your database link and MODE to dev.
 
->(Optional) you can also set PORT to your preferred port. By default the project will run on port 5000.
+> (Optional) you can also set PORT to your preferred port. By default the project will run on port 5000.
 
 ## Running the API
 
@@ -25,6 +25,7 @@ npm run dev
 ```
 POST /cakes
 ```
+
 Input example
 
 ```
@@ -47,6 +48,7 @@ return: 201 created
 ```
 POST /clients
 ```
+
 Input example
 
 ```
@@ -68,6 +70,7 @@ return: 201 created
 ```
 POST /orders
 ```
+
 Input example
 
 ```
